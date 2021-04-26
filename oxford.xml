@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<School id="1" name="oxford">
+    <adress>London28</adress>
+    <phone>021521253</phone>
+    <city>London</city>
+    <country>UK</country>
+    <Groups>
+        <Group id="2" name="Class One B" classNumber="2">
+            <curator id="2" firstName="jerry" lastName="ferlot">
+                <phoneNumber>2157756</phoneNumber>
+                <address>London33</address>
+                <dateOfBirth>2021-04-26T10:53:02.693+03:00</dateOfBirth>
+                <Subjects>
+                    <Subject id="1" name="algebra">
+                        <description>this is algebra</description>
+                    </Subject>
+                    <Subject id="2" name="geometry">
+                        <description>science about figures</description>
+                    </Subject>
+                </Subjects>
+            </curator>
+            <Students>
+                <Student id="1" firstName="Ivan" lastName="Ivanov">
+                    <phoneNumber>5564564</phoneNumber>
+                    <address>river str. h.11 fl.25</address>
+                    <dateOfBirth>2005-02-19T00:00:00+02:00</dateOfBirth>
+                </Student>
+                <Student id="2" firstName="James" lastName="Ackerley">
+                    <phoneNumber>5564564</phoneNumber>
+                    <address>river str. h.11 fl.215</address>
+                    <dateOfBirth>2005-03-21T00:00:00+02:00</dateOfBirth>
+                </Student>
+                <Student id="3" firstName="Robert" lastName="Backerly">
+                    <phoneNumber>5564564</phoneNumber>
+                    <address>river str. h.11 fl.225</address>
+                    <dateOfBirth>2005-04-12T00:00:00+03:00</dateOfBirth>
+                </Student>
+                <Student id="4" firstName="John" lastName="Eckerman">
+                    <phoneNumber>5564564</phoneNumber>
+                    <address>river str. h.11 fl.72</address>
+                    <dateOfBirth>2005-05-05T00:00:00+03:00</dateOfBirth>
+                </Student>
+                <Student id="5" firstName="Joseph" lastName="Backermann">
+                    <phoneNumber>5564564</phoneNumber>
+                    <address>river str. h.11 fl.45</address>
+                    <dateOfBirth>2005-06-15T00:00:00+03:00</dateOfBirth>
+                </Student>
+                <Student id="6" firstName="Andrew" lastName="Dackers">
+                    <phoneNumber>5564564</phoneNumber>
+                    <address>river str. h.11 fl.32</address>
+                    <dateOfBirth>2005-02-18T00:00:00+02:00</dateOfBirth>
+                </Student>
+                <Student id="7" firstName="Ryan" lastName="Packerson">
+                    <phoneNumber>5564564</phoneNumber>
+                    <address>river str. h.11 fl.74</address>
+                    <dateOfBirth>2005-06-28T00:00:00+03:00</dateOfBirth>
+                </Student>
+            </Students>
+        </Group>
+        <Group id="3" name="Class One C" classNumber="3">
+            <curator id="3" firstName="gerry" lastName="Ompato">
+                <phoneNumber>21571916</phoneNumber>
+                <address>London14</address>
+                <dateOfBirth>2021-04-26T10:53:02.693+03:00</dateOfBirth>
+                <Subjects>
+                    <Subject id="3" name="english">
+                        <description>most popular language in whole world</description>
+                    </Subject>
+                    <Subject id="4" name="French">
+                        <description>there are a lot of cool literature</description>
+                    </Subject>
+                </Subjects>
+            </curator>
+            <Students>
+                <Student id="8" firstName="Brandon" lastName="Rackert">
+                    <phoneNumber>5564564</phoneNumber>
+                    <address>river str. h.11 fl.83</address>
+                    <dateOfBirth>2005-08-07T00:00:00+03:00</dateOfBirth>
+                </Student>
+                <Student id="9" firstName="Jason" lastName="Ackison">
+                    <phoneNumber>5564564</phoneNumber>
+                    <address>river str. h.11 fl.96</address>
+                    <dateOfBirth>2005-11-09T00:00:00+02:00</dateOfBirth>
+                </Student>
+                <Student id="10" firstName="Justin" lastName="Nackiss">
+                    <phoneNumber>5564564</phoneNumber>
+                    <address>river str. h.11 fl.121</address>
+                    <dateOfBirth>2005-02-02T00:00:00+02:00</dateOfBirth>
+                </Student>
+                <Student id="11" firstName="Sarah" lastName="Yackland">
+                    <phoneNumber>5564564</phoneNumber>
+                    <address>river str. h.11 fl.17</address>
+                    <dateOfBirth>2005-02-05T00:00:00+02:00</dateOfBirth>
+                </Student>
+                <Student id="12" firstName="William" lastName="Facklen">
+                    <phoneNumber>5564564</phoneNumber>
+                    <address>river str. h.11 fl.1</address>
+                    <dateOfBirth>2005-12-17T00:00:00+02:00</dateOfBirth>
+                </Student>
+                <Student id="13" firstName="Jonathan" lastName="Ackles">
+                    <phoneNumber>5564564</phoneNumber>
+                    <address>river str. h.11 fl.89</address>
+                    <dateOfBirth>2005-02-22T00:00:00+02:00</dateOfBirth>
+                </Student>
+            </Students>
+        </Group>
+    </Groups>
+    <Teachers>
+        <Teacher id="2" firstName="jerry" lastName="ferlot">
+            <phoneNumber>2157756</phoneNumber>
+            <address>London33</address>
+            <dateOfBirth>2021-04-26T10:53:02.693+03:00</dateOfBirth>
+            <Subjects>
+                <Subject id="1" name="algebra">
+                    <description>this is algebra</description>
+                </Subject>
+                <Subject id="2" name="geometry">
+                    <description>science about figures</description>
+                </Subject>
+            </Subjects>
+        </Teacher>
+        <Teacher id="3" firstName="gerry" lastName="Ompato">
+            <phoneNumber>21571916</phoneNumber>
+            <address>London14</address>
+            <dateOfBirth>2021-04-26T10:53:02.693+03:00</dateOfBirth>
+            <Subjects>
+                <Subject id="3" name="english">
+                    <description>most popular language in whole world</description>
+                </Subject>
+                <Subject id="4" name="French">
+                    <description>there are a lot of cool literature</description>
+                </Subject>
+            </Subjects>
+        </Teacher>
+    </Teachers>
+    <Director id="1" firstName="terry" lastName="laxso">
+        <phoneNumber>21572316</phoneNumber>
+        <address>London24</address>
+        <dateOfBirth>2021-04-26T10:53:02.693+03:00</dateOfBirth>
+        <Subjects/>
+    </Director>
+</School>
