@@ -2,6 +2,8 @@ package com.spooky.school;
 
 import com.spooky.school.model.*;
 import com.spooky.school.service.XmlSchoolService;
+import com.spooky.school.util.DateFormatUtils;
+import com.spooky.school.util.SemesterUtils;
 
 import javax.xml.bind.annotation.XmlRootElement;
 import java.util.Date;
@@ -54,8 +56,14 @@ public class SchoolApplication {
 //        school.getTeachersList().add(teacher2);
 //        school.getGroupsList().add(group1);
 //        school.getGroupsList().add(group2);
-        XmlSchoolService schoolService = new XmlSchoolService();
-        School school = schoolService.loadSchool("oxford.xml");
-        schoolService.saveSchool(school,"oxford.xml");
+//        XmlSchoolService schoolService = new XmlSchoolService();
+//        School school = schoolService.loadSchool("oxford.xml");
+//        schoolService.saveSchool(school,"oxford.xml");
+        Date date = DateFormatUtils.convertStringToDate("10-10-2020");
+        Date date1 = DateFormatUtils.convertStringToDate("8-10-2020");
+        Date date2 = DateFormatUtils.convertStringToDate("3-10-2020");
+        System.out.println(SemesterUtils.getSemesterFromDate(date));
+        System.out.println(SemesterUtils.getSemesterFromDate(date1));
+        System.out.println(SemesterUtils.getSemesterFromDate(date2));
     }
 }

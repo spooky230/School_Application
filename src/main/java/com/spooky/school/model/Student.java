@@ -21,4 +21,6 @@ public class Student extends Human {
         super(firstName, lastName, phoneNumber, address, dateOfBirth, id);
 //        this.results = new LinkedList<>();
     }
+    public Student() {
+    }
 }
