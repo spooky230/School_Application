@@ -8,7 +8,7 @@ import java.util.List;
 @Data
 @XmlRootElement(name = "School")
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(propOrder = {"id","name","adress","phone","city","country","groupsList","teachersList","director"})
+@XmlType(propOrder = {"id","name","adress","phone","city","country","groupsList","teachersList","director","studyingPlan"})
 public class School {
     @XmlAttribute
     private long id;
@@ -30,6 +30,8 @@ public class School {
     private List<Teacher> teachersList;
     @XmlElement(name = "Director")
     private Teacher director;
+    @XmlElement(name = "StudyingPlan")
+    private StudyingPlan studyingPlan;
     public School ( long id,String name, String adress, String phone, String city, String country,Teacher director){
         this();
         this.name = name;
@@ -43,6 +45,7 @@ public class School {
     public School (){
         groupsList = new LinkedList<>();
         teachersList = new LinkedList<>();
+        studyingPlan = new StudyingPlan();
     }
 
 }
